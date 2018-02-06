@@ -23,7 +23,6 @@ namespace Ethic1
                 + "android=7a2127b6-5796-4027-bc8c-51875a5325a9"
                 , typeof(Analytics)
                 , typeof(Crashes)
-                , typeof(Push)
             );
         }
 
