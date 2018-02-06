@@ -2,6 +2,7 @@
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Push;
 
 namespace Ethic1
 {
@@ -22,6 +23,7 @@ namespace Ethic1
                 + "android=7a2127b6-5796-4027-bc8c-51875a5325a9"
                 , typeof(Analytics)
                 , typeof(Crashes));
+            AppCenter.Start("96997c18-01be-4693-9aca-9ecf59492840", typeof(Push));
         }
 
         protected override void OnSleep()
