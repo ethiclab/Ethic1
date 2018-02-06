@@ -25,6 +25,8 @@ namespace Ethic1
                 , typeof(Crashes)
                 , typeof(Push)
             );
+
+            ((Ethic1Page) MainPage).subscribe();
         }
 
         protected override void OnSleep()
