@@ -22,8 +22,9 @@ namespace Ethic1
                 + "uwp=e320f61f-24c5-414c-9d5b-53a4ca811eb6;" 
                 + "android=7a2127b6-5796-4027-bc8c-51875a5325a9"
                 , typeof(Analytics)
-                , typeof(Crashes));
-            AppCenter.Start("96997c18-01be-4693-9aca-9ecf59492840", typeof(Push));
+                , typeof(Crashes)
+                , typeof(Push)
+            );
         }
 
         protected override void OnSleep()
